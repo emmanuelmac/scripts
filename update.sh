@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get-y upgrade
-sudo apt-get -y dist-upgrade
+sudo apt update
+sudo apt -y upgrade
+sudo apt -y full-upgrade
 sudo apt -y autoremove
 
 exit
